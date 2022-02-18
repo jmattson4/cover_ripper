@@ -1,5 +1,7 @@
 from dataclasses import dataclass
+from datetime import datetime
 from genericpath import isfile
+from os import replace
 import sys, getopt
 
 @dataclass
@@ -10,6 +12,9 @@ class CoverLetter:
     location:str = ''
     job_title:str = ''
     name:str = ''
+    def setDate(self, date: str): 
+      date = date.replace("_", " ")
+      self.date = date
     def len(self):
         return len(self.date) + len(self.boss_title) + len(self.attention) + len(self.location) + len(self.job_title) + len(self.name)
 
@@ -31,7 +36,7 @@ def parseInput(argv):
       elif opt in ("-o", "--ofile"):
          outputfile = arg
       elif opt in ("--date", "-d"):
-         cl.date = arg
+         cl.setDate(arg)
       elif opt in ("--boss_title", "-b"):
          cl.boss_title = arg
       elif opt in ("--attention", "-a"):
