@@ -1,0 +1,17 @@
+{date}
+
+{boss_title}
+Attn: {attn}
+{location}
+
+Re: {job_title}
+
+To whom it may concern: 
+Please review my application and consider my employment over the summer months. I will be completing my second year of my Bachelor of Arts at Grant Macewan University in Edmonton, Alberta. However, I have since switched my major is Bachelor of music, with a focus in Jazz. I am applying for the Parks Summer Labourers position.  
+My skills have grown over my time with the Town of Whitecourt and I hope to return to develop those further. It is another opportunity for me to give back to the community that I was raised in. Further, I demonstrate dependability, openness to new situations, and ambition in my work ethic. I have a valid driver’s license and I am willing to work around any schedule.
+The position posted is of interest to me and I would appreciate the opportunity to discuss with you further. 
+
+
+Sincerely, 
+
+{name}
